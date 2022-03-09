@@ -33,7 +33,7 @@ final class APIManager: APIManagerProtocol {
     
     func get<T: Codable>(from urlRoute: APIRoute, pageData: APIPageData?) async throws -> BaseResponseModel<T> {
         guard var url = URL(string: urlRoute.urlPath) else {
-            throw APIError.failToCreateURL
+            throw APIError.failedToCreateURL
         }
         
         /// Add auth credentials if existed
