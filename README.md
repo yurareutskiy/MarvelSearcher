@@ -1,5 +1,8 @@
 # MarvelSearcher
 
+### Example
+https://user-images.githubusercontent.com/7831380/157539826-b587f83f-5681-4dc9-baa0-610f57402d4d.mp4
+
 ### What can I do else.
 If this project had to be finished, I would add some things. Consider this list as FIX-ME:
 1. Integrate coordinator for routing and passing a data between screens.
